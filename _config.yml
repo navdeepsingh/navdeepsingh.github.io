@@ -1,18 +1,21 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Navdeep Singh
-email: navdeep.er@gmail.com
-description: The joint place to jot my life and technical learnings.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://navdeepsingh.in" # the base hostname & protocol for your site
+header-img: img/new-home-bg.jpg
+email: navdeep.singh@publics.com.sg
+copyright_name: navdeepsingh.in
+description: "Type down my career learnings"
+baseurl: ""
+url: "http://navdeepsingh.in"
 twitter_username: nswebstudio
 github_username:  navdeepsingh
+facebook_username:  navdeep.er
+email_username:  navdeep.singh@publics.com.sg
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
