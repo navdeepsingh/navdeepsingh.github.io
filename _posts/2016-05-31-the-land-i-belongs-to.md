@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "The land I belongs to.."
+title:      "The land I belongs to"
 subtitle:   "Basic problems must meet"
 date:       2016-05-31 12:00:00
 author:     "Navdeep Singh"
@@ -15,4 +15,6 @@ header-img: "img/sg-gardens-by-the-bay.jpg"
 
 <p>This is not excuse, but hard fact we have here basic problems not solved, how we can think beyond the sea. Like Internet connectivity and speed, Power backup. In personal if i go, we have to take care of our family first then thinking big in job comes.</p>
 
-<p>Lesson to myself, go anywhere in the world, just remember from where you belongs to. As at last you will go there.</p>
+<p>Just imagine for the persons who lived in foreign land about 10 years and then somehow came back to native land. It will be really hard for them to adjust here. My sympathy goes for them.</p>
+
+<p>Lesson to myself, go anywhere in the world, just remember from where you belongs to. As at last you will go there back.</p>
