@@ -11,7 +11,7 @@ Laravel Eloquent belongsToMany relationship explained using real time example of
 <p>So relation like Participants have many Questions with Answers Table. In Laravel belongsToMany relationship is like many-to-many relationship. Here we can say Participants have many Questions  with Pivot table Particpant_Answers</p>
 
 <p>The table structure is like below:</p>
-{% highlight ruby linenos %}
+{% highlight %}
 Schema::create('participants', function (Blueprint $table) {
             $table->increments('id');
             $table->bigInteger('fb_id');
@@ -25,7 +25,7 @@ Schema::create('questions', function (Blueprint $table) {
             $table->string('question');
             $table->timestamps();
         });
-        
+
 Schema::create('participant_answers', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('participant_id')->unsigned();
