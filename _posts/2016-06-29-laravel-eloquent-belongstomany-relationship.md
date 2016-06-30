@@ -11,7 +11,7 @@ Laravel Eloquent belongsToMany relationship explained using real time example of
 <p>So relation like Participants have many Questions with Answers Table. In Laravel belongsToMany relationship is like many-to-many relationship. Here we can say Participants have many Questions  with Pivot table Particpant_Answers</p>
 
 <p>The table structure is like below:</p>
-```php
+{% highlight %}
 Schema::create('participants', function (Blueprint $table) {
             $table->increments('id');
             $table->bigInteger('fb_id');
@@ -37,4 +37,29 @@ Schema::create('participant_answers', function (Blueprint $table) {
             $table->string('answer');
             $table->timestamps();
 });        
-```
+{% endhighlight %}
+
+In Participant Model we make a connection with Question and Participant Answers via belongsToMany like below
+{% highlight %}
+class Participant extends Model {
+ public function answers()
+    {
+        return $this->belongsToMany('App\Question', 'participant_answers', 'participant_id', 'question_id')->withPivot('answer')
+            ->withTimestamps();
+    }
+}
+{% endhighlight %}
+
+'participant_answers' is pivot table. Btw what is Pivot table? you may doubted. Pivot table is table that only come into existence to serve a many-to-many relationship. Say here to get all participant answers we need a table which carry both participant_id, question_id and of course answer.
+
+Insert data into pivot table like below:
+{% highlight %}
+$participant->answers()->sync([$question->id => ['answer' => $request_answer] ]);
+{% endhighlight %}
+
+And to access all answers of a participant is like :
+{% highlight %}
+$participant->answers;
+{% endhighlight %}
+
+Any doubt you can contact me, love to help!
