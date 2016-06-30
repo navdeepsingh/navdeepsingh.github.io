@@ -2,8 +2,11 @@
 layout: post
 title:  "Laravel Eloquent belongsToMany relationship"
 date:   2016-06-29 15:46:00 +0530
+author:     "Navdeep Singh"
+header-img: "img/laravel-eloquent-belongstomany-relationship.jpg"
 categories: laravel
 ---
+
 Laravel Eloquent belongsToMany relationship explained using real time example of a quiz app. 
 
 <p>Participants registered via Facebook API in Participants table and each day have a one question. And Each day participants need to give answer to that question.</p>
