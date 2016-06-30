@@ -42,3 +42,29 @@ Schema::create('participant_answers', function (Blueprint $table) {
             $table->timestamps();
 });        
 {% endhighlight %}
+
+
+<p>In Participant Model we make a connection with Question and Participant Answers via belongsToMany like below</p>
+{% highlight php %}
+class Participant extends Model {
+ public function answers()
+    {
+        return $this->belongsToMany('App\Question', 'participant_answers', 'participant_id', 'question_id')->withPivot('answer')
+            ->withTimestamps();
+    }
+}
+{% endhighlight %}
+
+<p>'participant_answers' is pivot table. Btw what is Pivot table? you may doubted. Pivot table is table that only come into existence to serve a many-to-many relationship. Say here to get all participant answers we need a table which carry both participant_id, question_id and of course answer.</p>
+
+<p>Insert data into pivot table like below:</p>
+{% highlight php %}
+$participant->answers()->sync([$question->id => ['answer' => $request_answer] ]);
+{% endhighlight %}
+
+<p>And to access all answers of a participant is like :</p>
+{% highlight php %}
+$participant->answers;
+{% endhighlight %}
+
+<p>Any doubt you can contact me, love to help.</p>
