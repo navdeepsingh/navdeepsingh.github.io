@@ -15,7 +15,7 @@ categories: laravel
 
 <p>The table structure is like below:</p>
 
-{% highlight %}
+{% highlight ruby linenos %}
 Schema::create('participants', function (Blueprint $table) {
             $table->increments('id');
             $table->bigInteger('fb_id');
