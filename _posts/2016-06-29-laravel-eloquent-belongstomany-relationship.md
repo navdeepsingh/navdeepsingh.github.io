@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "Laravel Eloquent belongsToMany relationship"
-date:   2016-06-29 15:46:00 +0530
+layout:     post
+title:      "Laravel Eloquent belongsToMany relationship"
+subtitle:   "Realtime example to understand"
+date:       2016-06-29 15:46:00 +0530
 author:     "Navdeep Singh"
 header-img: "img/laravel-eloquent-belongstomany-relationship.jpg"
 categories: laravel
