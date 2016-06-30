@@ -55,7 +55,8 @@ class Participant extends Model {
 }
 {% endhighlight %}
 
-<p>'participant_answers' is pivot table. Btw what is Pivot table? you may doubted. Pivot table is table that only come into existence to serve a many-to-many relationship. Say here to get all participant answers we need a table which carry both participant_id, question_id and of course answer.</p>
+<p>'participant_answers' is pivot table. Btw what is Pivot table? you may doubted. </p>
+<blockquote>Pivot table is table that only come into existence to serve a many-to-many relationship. Say here to get all participant answers we need a table which carry both participant_id, question_id and of course answer.</blockquote>
 
 <p>Insert data into pivot table like below:</p>
 {% highlight php %}
