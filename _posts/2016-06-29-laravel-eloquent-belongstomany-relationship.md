@@ -1,14 +1,13 @@
 ---
-layout:     post
-title:      "Laravel Eloquent belongsToMany relationship"
-subtitle:   "Realtime example to understand"
-date:       2016-06-29 15:46:00 +0530
+layout: post
+title:  "Laravel Eloquent belongsToMany relationship"
+date:   2016-06-29 15:46:00 +0530
 author:     "Navdeep Singh"
 header-img: "img/laravel-eloquent-belongstomany-relationship.jpg"
 categories: laravel
 ---
 
-Laravel Eloquent belongsToMany relationship explained using real time example of a quiz app. 
+<p>Laravel Eloquent belongsToMany relationship explained using real time example of a quiz app. </p>
 
 <p>Participants registered via Facebook API in Participants table and each day have a one question. And Each day participants need to give answer to that question.</p>
 
@@ -44,3 +43,26 @@ Schema::create('participant_answers', function (Blueprint $table) {
 {% endhighlight %}
 
 <p>In Participant Model we make a connection with Question and Participant Answers via belongsToMany like below</p>
+{% highlight %}
+class Participant extends Model {
+ public function answers()
+    {
+        return $this->belongsToMany('App\Question', 'participant_answers', 'participant_id', 'question_id')->withPivot('answer')
+            ->withTimestamps();
+    }
+}
+{% endhighlight %}
+
+<p>'participant_answers' is pivot table. Btw what is Pivot table? you may doubted. Pivot table is table that only come into existence to serve a many-to-many relationship. Say here to get all participant answers we need a table which carry both participant_id, question_id and of course answer.</p>
+
+<p>Insert data into pivot table like below:</p>
+{% highlight %}
+$participant->answers()->sync([$question->id => ['answer' => $request_answer] ]);
+{% endhighlight %}
+
+<p>And to access all answers of a participant is like :</p>
+{% highlight %}
+$participant->answers;
+{% endhighlight %}
+
+<p>Any doubt you can contact me, love to help.</p>
