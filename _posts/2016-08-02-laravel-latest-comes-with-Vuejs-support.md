@@ -12,4 +12,4 @@ categories: laravel
 
 <p>Good news for us, Laravel Developers working with Vuejs. During the Laracon US 2016 COnference,Taylor Otwell, creator of Laravel, announced that Laravel 5.3 will come with Vue.js support</p>
 
-<p>Evan You, creator of Vuejs shared his slides of presentation on Google slides as <a href="https://docs.google.com/presentation/d/16MpK3I2LZz47QdLg3uMNkCC3PqmM0znXF3-FdCEpics/edit#slide=id.p">Vue.js @ Laracon</a> & <a href="https://t.co/YfMqXe07Xt">Vue-Router & Vuex @ Laracon</a>.</p>
+<p><a href="https://twitter.com/intent/tweet?screen_name=youyuxi" class="twitter-mention-button" data-show-count="false">Evan You</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>, creator of Vuejs shared his slides of presentation on Google slides as <a href="https://docs.google.com/presentation/d/16MpK3I2LZz47QdLg3uMNkCC3PqmM0znXF3-FdCEpics/edit#slide=id.p">Vue.js @ Laracon</a> & <a href="https://t.co/YfMqXe07Xt">Vue-Router & Vuex @ Laracon</a>.</p>
