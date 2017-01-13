@@ -6,6 +6,7 @@ header-img : "img/centos-in-virtualbox.jpg"
 categories: virtualbox
 ---
 Installing CentOS in Virtual Box of Windows Host Machine for Development
+========================================================================
 
 <p>It was really excited to use Linux based OS in my Windows Host Machine through Oracle based Virtual Box Manager. Since many months i want to use Linux in Windows. So at last when i assigned with task to fix some bugs in Drupal site that is installed in CentOS with httpd and mariadb and I need to replicate server and site on my local to fix bugs then understands this all stuff altogether. The need to create replica first because we cant do directly change the css on server Drupal site and second it got some direct changes on server and we cant take risk to break the live site by discarding the direct live changes on server.</p>
 
@@ -28,8 +29,8 @@ yum group install "Development Tools"
 sudo /media/cdrom/VBoxLinuxAdditions.run
 {% endhighlight %}
 
-Reference links : http://toolkt.com/site/virtualbox-shared-folders-with-centos-server-guest/
-http://www.pc-freak.net/blog/installing-virtualbox-guest-additions-vboxadditions-centos-65-fedora-19-20-rhel-65-510/
+Reference links : [http://toolkt.com/site/virtualbox-shared-folders-with-centos-server-guest/](http://toolkt.com/site/virtualbox-shared-folders-with-centos-server-guest/)
+[http://www.pc-freak.net/blog/installing-virtualbox-guest-additions-vboxadditions-centos-65-fedora-19-20-rhel-65-510/](http://www.pc-freak.net/blog/installing-virtualbox-guest-additions-vboxadditions-centos-65-fedora-19-20-rhel-65-510/)
 
 ![image-title-here](/img/note2.png){:class="img-responsive"}
 
@@ -88,6 +89,13 @@ sudo systemctl start mariadb
 sudo mysql_secure_installation
 sudo systemctl enable mariadb
 {% endhighlight %}
+
+Login to MariaDB
+{% highlight js %}
+mysql -u root -p
+{% endhighlight %}
+
+Reference Link [https://www.linode.com/docs/databases/mariadb/how-to-install-mariadb-on-centos-7](https://www.linode.com/docs/databases/mariadb/how-to-install-mariadb-on-centos-7)
 
 Install PHP
 {% highlight js %}
