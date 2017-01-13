@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Installing CentOS in Virtual Box of Windows Host Machine for Development"
 date:   2017-01-13 11:23:00 +0530
 author:     "Navdeep Singh"
-header-img : "centos-in-virtualbox.jpg"
+header-img : "img/centos-in-virtualbox.jpg"
 categories: virtualbox
 ---
 Installing CentOS in Virtual Box of Windows Host Machine for Development
