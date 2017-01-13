@@ -127,6 +127,15 @@ Press :q! + Enter
 
 # Quit
 Press :q + Enter
+
+// Cut, Copy, Paste
+# Press v to select characters
+# Press V to select whole line
+
+# Press d to cut
+# Press y to cut
+
+# Press p to paste
 {% endhighlight %}
 
 Hope to continue my development in LEMP environment with nodejs powered apps. Future is Javascript seems so.
