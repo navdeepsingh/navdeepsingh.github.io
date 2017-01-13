@@ -63,8 +63,8 @@ Now we have network setup
 3. Install NGINX and MariaDB
 
 Below reference links are best to install nginx and mariadb
-https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-centos-7
-https://www.nginx.com/resources/wiki/start/topics/tutorials/install/
+[https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-centos-7](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-centos-7)
+[https://www.nginx.com/resources/wiki/start/topics/tutorials/install/](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
 
 In precise following commands used to install same
 {% highlight js %}
