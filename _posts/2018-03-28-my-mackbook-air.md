@@ -16,8 +16,8 @@ My Apple Macbook Air
 <p>And other solid reason was Terminal of Mac. As you know In this NODEJS world, most tutorials available online are gave priority to MAC users. I mean most creative and innovative work being done on macOS. (Disclaimer: For Win users, the thoughts are truly personal)</p>
 
 <p>My Mac specifications are as below in screenshots: </p>
-![image-title-here](/img/my-macbook-air-pic1.jpg){:class="img-responsive"}
 
+![image-title-here](/img/my-macbook-air-pic1.jpg){:class="img-responsive"}
 
 <p>With 256GB SSD, Yeah I know this is lesser than Windows Hard disk memory trend 1TB. But SSDs are more costlier than HD.</p>
 
