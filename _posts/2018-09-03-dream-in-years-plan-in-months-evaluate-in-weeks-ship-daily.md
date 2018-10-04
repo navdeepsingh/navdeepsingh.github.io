@@ -3,7 +3,7 @@ layout: post
 title:  "Dream in Years. Plan in Months. Evaluate in Weeks. Ship Daily."
 date:   2018-09-03 04:37:00 +0530
 author:     "Navdeep Singh"
-header-img : "https://developers.google.com/training/web/images/web-responsive.svg"
+header-img : "img/gmws-web-responsive.svg"
 categories: professional
 ---
 Dream in Years. Plan in Months. Evaluate in Weeks. Ship Daily.
