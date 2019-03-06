@@ -10,7 +10,7 @@ Year end review: 2018
 
 # Happy end of 2018!!! 🎉🎊❤️😘👯‍♂️🍿
 <ul>
-	<li>Completed 1+ year in my Agency.</li>
+	<li>Completed 1+ year in Falcon Agency.</li>
 	<li>Graduated from Udacity's Mobile Web Specialist Nanodegree.</li>
 	<li>Certified from Google as Mobile Web Specialist.</li>
 	<li>Learning JS Algorithms and Structures.</li>
