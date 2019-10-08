@@ -11,15 +11,15 @@ Reactjs with Laravel or Lumen or Express
 
 <p>I love today’s world web technologies and thanks to various cloud platforms that allow developers to deploy there application to test and showcase, we can use any combination as per our need. Recently, I got the chance to get hands on experience in using Reactjs Library in setting up SPA and Full Stack Applications. I used Reactjs in different combinations. Hope it will give an overview to newbies.</p>
 
-**Reactjs and Lumen Application**
-**Reactjs and Laravel Application**
-**Reactjs and Express Application**
+**Reactjs and Lumen Application**<br>
+**Reactjs and Laravel Application**<br>
+**Reactjs and Express Application**<br>
 
 <h1>Reactjs and Lumen Application</h1>
 
-Demo: https://master.d30av2lsib94wx.amplifyapp.com/
-Email: test@test.com
-Password: test123
+Demo: https://master.d30av2lsib94wx.amplifyapp.com/<br>
+Email: test@test.com<br>
+Password: test123<br>
 
 <p>For this I used separate folders to differentiate between front end and back end (api calls). Front end is developed using Reactjs and can be deployed in AWS Amplify ( I recommend ), or you have other options like Heroku, Netlify, Zeit and can deploy in EC2 instance of AWS. It’s truly depends on personal choice and available resources.</p>
 
