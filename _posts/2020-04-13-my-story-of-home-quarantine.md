@@ -3,7 +3,7 @@ layout: post
 title:  "My Story of Home Quarantine for 14 days"
 date:   2020-04-13 18:00:00 +0530
 author:     "Navdeep Singh"
-header-img: "img/photo-1585222515068-7201a72c4181.jpeg"
+header-img: "img/covid-19-cover.jpg"
 categories: career
 ---
 My Story of Home Quarantine for 14 days
@@ -11,7 +11,7 @@ My Story of Home Quarantine for 14 days
 
 <p>My motive in this article for my readers to not scare you about the COVID-19 any more, instead, I am trying to explain my experience about Home Quarantine in my state after returning from another COVID-19 hot spot country.</p>
 
-![Home Quarantine](img/home-quarantine.jpeg)
+![Home Quarantine](/img/home-quarantine.jpeg)
 
 <p>I and my wife were super excited to have our first foreign trip to Singapore which was scheduled from 9th March to 15th March. To keep the charm of suspense for our kids, we kept it secret from them. We informed the kids only at Airport (Sri Guru Ramdas International Airport, Amritsar) before takeoff. They were totally amazed and happy.</p>
 
