@@ -3,6 +3,7 @@ layout: post
 title:  "Miserable conditions of migrant Indian laborers"
 date:   2020-05-21 18:00:00 +0530
 author:     "Navdeep Singh"
+header-img: "img/migrant-workers-walking-during-covid-crisis.jpg"
 categories: life
 ---
 Miserable conditions of migrant Indian laborers 
