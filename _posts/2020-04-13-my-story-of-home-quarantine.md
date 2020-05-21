@@ -4,7 +4,7 @@ title:  "My Story of Home Quarantine for 14 days"
 date:   2020-04-13 18:00:00 +0530
 author:     "Navdeep Singh"
 header-img: "img/covid-19-cover.jpg"
-categories: career
+categories: life
 ---
 My Story of Home Quarantine for 14 days
 ========================================================================
